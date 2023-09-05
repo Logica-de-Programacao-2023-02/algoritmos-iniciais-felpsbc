@@ -1,0 +1,87 @@
+Ex01- Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+
+1: Leia A 
+2: Leia B
+3: Resultado = A + B
+4: Escreva resultado
+
+Ex02- Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+
+1: Leia temperatura
+2: leia unidade de medida
+3: Se unidade de medida =  C
+4: Então resultado =  (temperatura * 1,8) + 32
+5: Senão 
+6: Então resultado = (temperatura - 32) /1.8
+7: Escreva resultado 
+
+Ex03-  Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+
+1: Leia Lista de Numeros
+2: Var Soma =  0
+3: Para cada novo numero faça Soma = Soma + Novo numero 
+4: Faça Média dos numeros = Soma dos numeros/Quantidade dos numeros
+5: Escreva Média dos numeros.
+
+Ex04- Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+
+1: Leia numero 
+2: para fatorial = 1; fatorial <= numero; fatorial++
+3: faça Resultado = Resultado * Fatorial
+4: escreva resultado 
+
+Ex05- Algoritmo de busca linear: um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
+
+1: Leia Lista de Numeros
+2: Leia Elemento Selecionado 
+3: Leia tamanho da lista 
+4: Lista de numeros = 0 até tamanho da lista - 1 
+5: Vasculhe Lista de Numeros 
+5.1: Posição: 0 até tamanho da lista - 1 
+6: Se elemento atual != Elemento selecionado então continue 
+7: Senão Pare
+8: Se elemento não encontrado então escreva (" Elemento não existente")
+9: Senão Escreva ("Elemento encontrado"+" " Str Posição)
+
+Ex06- Algoritmo de cálculo de potência: um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
+
+1: Leia numero
+2: Leia potencia 
+3: Faça Resultado = numero^potencia 
+4: Escreva Resultado
+
+Ex07- Algoritmo  de verificação de número primo: um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo. 
+
+1: Leia numero 
+2: Se numero/2 até x-1 % 0 escreva (" O número não é primo")
+3: Senão Escreva ("O numero é primo")
+
+Ex08- Algoritmo de cálculo de área de um triângulo: um algoritmo que calcula a área de um triângulo com base na base e altura fornecidas.
+
+1: Leia Altura 
+2: Leia Base 
+3: faça Area = Base*Altura/2
+
+Ex09- Algoritmo de cálculo de juros compostos: um algoritmo que calcula o montante de dinheiro após um período de tempo com juros compostos.
+
+1: Leia Quantidade de Dinheiro
+2: Leia tempo 
+3: Leia Taxa
+4: Quantidade de Dinheiro = C 
+5: tempo = T 
+6: Taxa de juros = I
+7: Faça M = C*(1+i)^T
+8: Escreva M 
+
+Ex10- Algoritmo de cálculo de média ponderada: um algoritmo que calcula a média ponderada de uma lista de números com base nos pesos fornecidos.
+
+1: Leia valores
+2: Leia pesos 
+3: Se len(valores) != Len(pesos); Return("os valores e os pesos devem possuir o mesmo tamanho")
+4: Soma dos pesos = soma(pesos)
+5: Se soma dos pesos == 0
+6: Printf("A soma dos pesos não pode ser igual a 0")
+7: Produto da soma = soma(valor*peso for valor, peso por posição) 
+8: Media Ponderada = Produto da soma/ Soma dos pesos
+9: Return Media Ponderada
+
